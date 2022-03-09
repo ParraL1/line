@@ -20,7 +20,7 @@ class Point:
         return self.y_coord
 
     # get distance between two points
-    def distanceTo(self, point_2):
+    def distance_to(self, point_2):
         return math.sqrt(abs((point_2.x_coord - self.x_coord) ** 2 + (point_2.y_coord - self.y_coord) ** 2))
 
 # defining class Line
@@ -40,7 +40,7 @@ class LineSegment:
 
     # return the length of line segment
     def length(self):
-        return self.endpoint_1.distanceTo(self.endpoint_2)
+        return self.endpoint_1.distance_to(self.endpoint_2)
 
     # check if two lines are parallel
     def is_parallel_to(self, line_segment):
