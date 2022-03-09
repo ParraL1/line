@@ -26,7 +26,7 @@ class Point:
     def distance_to(self, point_2):
         return math.sqrt(abs((point_2.x_coord - self.x_coord) ** 2 + (point_2.y_coord - self.y_coord) ** 2))
 
-# defining class Line
+#class Line
 class LineSegment:
     # constructor
     def __init__(self, point_1, point_2):
