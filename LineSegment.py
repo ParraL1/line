@@ -5,6 +5,9 @@
 
 
 # defining class Point
+import math
+
+
 class Point:
     # constructor
     def __init__(self, x_coord, y_coord):
